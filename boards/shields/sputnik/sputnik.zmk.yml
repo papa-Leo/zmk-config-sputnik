@@ -1,0 +1,12 @@
+file_format: "1"
+id: sputnik
+name: Sputnik
+type: shield
+url: https://github.com/vostoklabs/Sputnik-Handwired-Split-Corne-Keyboard-
+requires:
+  - pro_micro
+features:
+  - keys
+siblings:
+  - sputnik_left
+  - sputnik_right

@@ -1,0 +1,12 @@
+if SHIELD_SPUTNIK_LEFT
+    config ZMK_KEYBOARD_NAME
+        default "Sputnik"
+    config ZMK_SPLIT_ROLE_CENTRAL
+        default y
+endif
+
+if SHIELD_SPUTNIK_LEFT || SHIELD_SPUTNIK_RIGHT
+    config ZMK_KEYBOARD
+        default y
+    select REQUIRES_KSCAN
+endif

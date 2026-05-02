@@ -1,0 +1,5 @@
+config SHIELD_SPUTNIK_LEFT
+    def_bool $(shields_list_contains,sputnik_left)
+
+config SHIELD_SPUTNIK_RIGHT
+    def_bool $(shields_list_contains,sputnik_right)
